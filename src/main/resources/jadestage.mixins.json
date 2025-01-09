@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.rololo.jadestage.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "jadestage.refmap.json",
+  "mixins": [
+    "OverlayRendererMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
